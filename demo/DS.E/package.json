@@ -14,7 +14,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "build": "node init && yarn lerna run build",
+    "dev": "node init && yarn lerna run dev"
   }
 }
