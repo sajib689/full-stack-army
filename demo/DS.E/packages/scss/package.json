@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./src/scripts/build.js",
-    "dev": "nodemon --watch src --exec yarn build -e scss"
+    "build": "node init && node ./src/scripts/build.js",
+    "dev": "node init && nodemon --watch src --exec yarn build -e scss"
   },
   "keywords": [],
   "author": "",
